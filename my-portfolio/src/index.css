@@ -1,0 +1,89 @@
+.homepage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 50px;
+  width: 80%;
+  height: auto;
+  perspective: 1000px;
+  font-size:20px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  text-align: center;
+  background-color: #ddead1;
+
+}
+
+.Name-Banner{
+  align-items: center;
+  font-size:40px;
+}
+
+
+
+.content {
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.content.rotate {
+  transform: rotateY(180deg);
+}
+
+.about-text {
+  align-items: center;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.about-text::-webkit-scrollbar {
+  width: 8px;
+}
+
+.about-text::-webkit-scrollbar-thumb {
+  background-color: #a9a9a9;
+}
+
+.about-text::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.projects {
+  margin-top: 50px;
+}
+
+.projects p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.contact h2 {
+  text-align: center;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+
+.Skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.SkillIcons {
+  display:flex;
+  flex-direction: row;
+}

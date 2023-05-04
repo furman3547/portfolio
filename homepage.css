@@ -1,0 +1,59 @@
+/* Style for the container */
+.container {
+    display: flex;
+    flex-direction: row;
+    background-image: url('geometric-shapes.jpg');
+   
+
+  }
+  
+  /* Style for the navigation bar */
+  .navigation {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Style for the navigation list */
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style for the navigation links */
+  .nav-list li a {
+    display: block;
+    padding: 10px 0;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Style for the active navigation link */
+  .nav-list li a.active {
+    color: #ff0000;
+  }
+  
+  /* Style for the content */
+  .content {
+    flex: 1;
+    padding: 20px;
+   
+  }
+  
+  /* Style for the sections */
+  section {
+    margin-top: 50px;
+  }
+  
+  /* Style for the section headings */
+  section h2 {
+    margin-top: 0;
+  }
+  
+
+
+  
