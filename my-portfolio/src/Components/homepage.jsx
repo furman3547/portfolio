@@ -3,7 +3,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import WebFont from 'webfontloader';
-
+import ImageLinks from './ImageLinks';
+import { style } from "@mui/system";
 WebFont.load({
   google: {
     families: ['Roboto:400,700', 'sans-serif']
@@ -19,11 +20,13 @@ const Homepage = () => {
             <div className="about">
               
               <div className="about-text">
-                <div className="Name-Banner"><h2>ALYSSA FURMAN</h2></div>
-                <p> 
+                <div className="Name-Banner"><h2><c>ALYSSA FURMAN<br>
+                
+                </br></c></h2></div>
+                <p>
                   Special Education Teacher turned <br></br>
                   Full Stack Software Developer <br></br>
-                  with a passion for digital accessibility 
+                  with a passion for digital accessibility.
                   <br />
                 
                 </p>
@@ -33,28 +36,11 @@ const Homepage = () => {
           <section id="section2">
           <div className="Skills">
             
-            <br></br>
-
-
-            <div className="SkillIcons">
-
-            <img src="https://i.imgur.com/Rn1fsHC.png"></img>
-            <img src="https://i.imgur.com/SMA7g0V.png"></img>
-            <img src="https://i.imgur.com/G8eV9f0.png"></img>
-            <img src="https://i.imgur.com/iUrnNlm.png"></img>
-            <img src="https://i.imgur.com/iHsoEbL.png"></img>
-
-            </div>
             
 
-
-
-          </div>
-              
-          </section>
-          <section id="section3">
-            <div className="contact">
-              <h2>CONTACT</h2>
+{/* <section id="section3"> */}
+<div className="contact">
+              <div className="about">
               <div className="contact-icons">
               <a href="https://linkedin.com">
                   <LinkedInIcon fontSize="large"/>
@@ -68,7 +54,45 @@ const Homepage = () => {
                 </a>
               </div>
             </div>
+            </div>
+          {/* </section> */}
+
+
+
+
+
+
+
+            <div className="SkillIcons">
+
+            <img src="https://i.imgur.com/Rn1fsHC.png"></img>
+            <img src="https://i.imgur.com/SMA7g0V.png"></img>
+            <img src="https://i.imgur.com/G8eV9f0.png"></img>
+            <img src="https://i.imgur.com/iUrnNlm.png"></img>
+            <img src="https://i.imgur.com/iHsoEbL.png"></img>
+                  
+
+
+
+
+
+
+
+            </div>
+            <br></br>
+          <ImageLinks/>
+ 
+
+
+
+
+
+
+
+          </div>
+              
           </section>
+          
         </div>
       </div>
     </div>
