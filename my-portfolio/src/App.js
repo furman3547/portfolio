@@ -1,11 +1,11 @@
-import Homepage from './Components/homepage';
-
+import Portfolio from './Components/Portfolio'
 import react from 'react'
+
 
 const App = () => {
   return (
     <div>
-<Homepage />
+<Portfolio/>
 
 
     </div>

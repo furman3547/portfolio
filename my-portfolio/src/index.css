@@ -1,131 +1,114 @@
-.homepage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    padding: 50px;
-    width: 80%;
-    height: auto;
-    perspective: 1000px;
-    font-size: 20px;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    text-align: center;
-    background-color: #ddead1;
-    display: flex;
-    justify-content: flex-start; /* added property */
-  }
-  
-  .ImageLinks {
-    display: flex;
-    flex-direction: row;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
 
-
-
-.Name-Banner{
-  display: flex;
-  justify-content: space-evenly ;
-  align-items: center;
-  font-size:40px;
+.card {
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
 
-.content {
-  display:flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content: center;
-  transform-style: preserve-3d;
-  transition: transform 0.8s;
-}
-
-.content.rotate {
-  transform: rotateY(180deg);
-}
-
-.about-text {
-  display: flex;
-  align-items: center;
-  overflow: auto;
-  max-height: 300px;
-}
-
-.about-text::-webkit-scrollbar {
-  width: 8px;
-}
-
-.about-text::-webkit-scrollbar-thumb {
-  background-color: #a9a9a9;
-}
-
-.about-text::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
-}
-
-.projects {
-  margin-top: 50px;
-}
-
-.projects p {
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-.contact-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  
-}
-
-.contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-
-.contact h2 {
+header {
+  background-color: #d89279;
+  color: #fff;
+  padding: 20px;
   text-align: center;
-  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+h1 {
+  
+  color:#ffffff;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+main {
+  background-color: #eee3dd;
+  padding: 20px;
+}
+
+section {
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 2rem;
+  color: #C4661F;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.project h4 {
+  text-align: left;
+  color: darkolivegreen;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.project p {
+  margin: 0;
+
+
+
+
+  
+}
+
+ul {
+  text-align:center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display:inline-block;
+  padding: 15px;
+  margin-inline: auto;
+  width: fit-content;
+  
+}
+
+a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 
-.Skills {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-.SkillIcons {
-  display:flex;
-  flex-direction: row;
-}
-
-.contactbox{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-.contact-icons{
-  display: flex;
-  justify-content: space-evenly ;
-  align-items: center;
-  max-height: 400px;
-  margin-top: 10px;
+.skillicon{
+  text-align: center;
+  margin-top: 0;
+  font-size: 2rem;
 }
